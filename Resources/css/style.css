@@ -1,0 +1,35 @@
+html{
+  font-size: 20px;
+  }
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding-left: 15px;
+}
+
+.ross {
+  font-family: 'Monoton', cursive;
+  color: navy;
+  font-size: 80px;
+  align-self: center;
+
+}
+
+.job-title {
+  font-size: 2rem;
+}
+
+.intro-quote {
+ font-family: 'Zilla Slab', serif;
+}
+
+.fab {
+  
+}
+
+/*Project Page specific CSS */
+.projects {
+  width: 350px;
+  height: auto;
+  border: 1px navy solid;
+}

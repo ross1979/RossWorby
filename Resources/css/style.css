@@ -26,8 +26,8 @@ a .nav-link {
   background-image: url("./Background Images/Skyback 42pc.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:contain;
-  /*background-position: center right;*/
+  background-size:cover;
+  background-position: bottom right
 }
 .intro-quote {
  font-family: 'Zilla Slab', serif;

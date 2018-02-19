@@ -7,20 +7,18 @@ body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   padding-left: 15px;
   opacity: 1;
-
 }
+/*Nav bar - all pages*/
 .navbar {
   border-radius: 20px;
-
 }
 .navbar-nav {
   color: white;
-
 }
-
 a .nav-link {
   color: black;
 }
+/*Home page*/
 .jumbotron {
   border-radius: 20px;
   background-image: url("./Background Images/Skyback 42pc.jpg");
@@ -39,19 +37,19 @@ a .nav-link {
   color: navy;
   font-size: 4rem;
   align-self: center;
-
 }
-
 .job-title {
   font-size: 2rem;
 }
 
+/*Soical Media : Font Awesome Icons*/
 .socialmedia a {
   margin-right: 10px;
 }
+
 /*Project Page specific CSS */
 .projects {
-  width: 350px;
+  width: 300px;
   height: auto;
   border: 1px navy solid;
   opacity: 0.5;
@@ -78,4 +76,41 @@ a .nav-link {
   height: auto;
   border: solid black 2px;
   border-radius: 10px;
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 990px) {
+  .body {
+    font-size: 0.75rem;
+  }
+  .jumbotron {
+    display: none;
+  }
+  .ross {
+    font-size: 2.5rem;
+  }
+  .job-title {
+    font-size: 1.5rem;
+  }
+  .projects {
+    width: 225px;
+    height: auto;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: .7rem;
+    font-weight: ;
+  }
+  p {
+    font-size: .7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    width: 350px;
+    height: auto;
+  }
 }

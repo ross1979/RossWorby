@@ -21,16 +21,16 @@ a .nav-link {
 /*Home page*/
 .jumbotron {
   border-radius: 20px;
-  background-image: url("./Background Images/Skyback 42pc.jpg");
+  background-image: url("./Background Images/flower 100pc.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:cover;
-  background-position: bottom right
+  background-size: auto;
+  background-position: top center;
 }
 .intro-quote {
  font-family: 'Zilla Slab', serif;
  font-size: 2rem;
- color: navy;
+ color: white;
 }
 .ross {
   font-family: 'Monoton', cursive;
@@ -41,8 +41,48 @@ a .nav-link {
 .job-title {
   font-size: 2rem;
 }
+.services {
+  margin-left: 30px;
+}
 
-/*Soical Media : Font Awesome Icons*/
+/*Webdev page*/
+.jumbotron-webdev {
+  border-radius: 20px;
+  background-image: url("./Background Images/flower2 100pc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: top right;
+}
+.webdev-quote {
+ font-family: 'Zilla Slab', serif;
+ font-size: 2rem;
+ color: white;
+}
+
+/*aboutme page*/
+.jumbotron-about {
+  border-radius: 20px;
+  background-image: url("./Background Images/graffiti 100pc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: top right;
+}
+.about-quote {
+ font-family: 'Zilla Slab', serif;
+ font-size: 2rem;
+ color: red;
+}
+/*About me specific CSS */
+.portrait {
+  width: 150px;
+  height: auto;
+  border: solid black 2px;
+  border-radius: 10px;
+}
+/*social
+ Media : Font Awesome Icons*/
 .socialmedia a {
   margin-right: 10px;
 }
@@ -58,8 +98,21 @@ a .nav-link {
   opacity: 1;
   border: 3px navy solid;
 }
+.jumbotron-projects {
+  border-radius: 20px;
+  background-image: url("./Background Images/woods2 100pc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: top right;
+}
+.projects-quote {
+ font-family: 'Zilla Slab', serif;
+ font-size: 2rem;
+ color: white;
+}
 
-.project-page h4 {
+/*.project-page h4 {
   font-size: 1rem;
 }
 .project-page h5 {
@@ -67,16 +120,23 @@ a .nav-link {
 }
 .project-page p {
   font-size: .6rem;
+}*/
+/*inspiration page*/
+.jumbotron-inspire {
+  border-radius: 20px;
+  background-image: url("./Background Images/graffiti 100pc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: top right;
+}
+.inspire-quote {
+ font-family: 'Zilla Slab', serif;
+ font-size: 2rem;
+ color: orange;
 }
 
 
-/*About me specific CSS */
-.portrait {
-  width: 150px;
-  height: auto;
-  border: solid black 2px;
-  border-radius: 10px;
-}
 
 /* Mobile screens */
 @media only screen and (max-width: 990px) {

@@ -44,6 +44,9 @@ a .nav-link {
 .services {
   margin-left: 30px;
 }
+#copyright {
+  font-size: .5rem;
+}
 
 /*Webdev page*/
 .jumbotron-webdev {
@@ -159,13 +162,14 @@ a .nav-link {
   h1 {
     font-size: 1rem;
   }
-  h4 {
-    font-size: .7rem;
-    font-weight: ;
+  h2 {
+    font-size: 1.2rem;
   }
-  p {
+
+  h4, p, li {
     font-size: .7rem;
   }
+
 }
 
 @media only screen and (max-width: 768px) {

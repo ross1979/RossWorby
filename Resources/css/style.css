@@ -13,10 +13,10 @@ body {
   border-radius: 20px;
 }
 .navbar-nav {
-  color: white;
+  color: #FFFFFF;
 }
 a .nav-link {
-  color: black;
+  color: #000000;
 }
 /*Home page*/
 .jumbotron {
@@ -30,11 +30,11 @@ a .nav-link {
 .intro-quote {
  font-family: 'Zilla Slab', serif;
  font-size: 2rem;
- color: white;
+ color: #FFFFFF;
 }
 .ross {
   font-family: 'Monoton', cursive;
-  color: navy;
+  color: #000080;
   font-size: 4rem;
   align-self: center;
 }
@@ -43,6 +43,16 @@ a .nav-link {
 }
 .services {
   margin-left: 30px;
+}
+
+.socialmedia {
+  background-color: #DCDCDC;
+  border-radius: 20px;
+}
+
+#social-note {
+  font-size: 0.8rem;
+  margin-bottom: 0;
 }
 #copyright {
   font-size: .5rem;
@@ -60,7 +70,7 @@ a .nav-link {
 .webdev-quote {
  font-family: 'Zilla Slab', serif;
  font-size: 2rem;
- color: white;
+ color: #FFFFFF;
 }
 
 /*aboutme page*/
@@ -75,31 +85,32 @@ a .nav-link {
 .about-quote {
  font-family: 'Zilla Slab', serif;
  font-size: 2rem;
- color: red;
+ color: #B22222;
 }
 /*About me specific CSS */
 .portrait {
   width: 150px;
   height: auto;
-  border: solid black 2px;
+  border: solid #000000 2px;
   border-radius: 10px;
 }
 /*social
  Media : Font Awesome Icons*/
 .socialmedia a {
   margin-right: 10px;
+  color: #000080;
 }
 
 /*Project Page specific CSS */
 .projects {
   width: 300px;
   height: auto;
-  border: 1px navy solid;
+  border: 1px #000080 solid;
   opacity: 0.5;
 }
 .projects:hover {
   opacity: 1;
-  border: 3px navy solid;
+  border: 3px #000080 solid;
 }
 .jumbotron-projects {
   border-radius: 20px;
@@ -112,7 +123,7 @@ a .nav-link {
 .projects-quote {
  font-family: 'Zilla Slab', serif;
  font-size: 2rem;
- color: white;
+ color: #FFFFFF;
 }
 
 /*.project-page h4 {
@@ -136,7 +147,7 @@ a .nav-link {
 .inspire-quote {
  font-family: 'Zilla Slab', serif;
  font-size: 2rem;
- color: orange;
+ color: #FFA500;
 }
 
 
@@ -169,6 +180,9 @@ a .nav-link {
   h4, p, li {
     font-size: .7rem;
   }
+  #social-note {
+    font-size: 0.6rem;
+  }
 
 }
 
@@ -176,5 +190,6 @@ a .nav-link {
   .projects {
     width: 350px;
     height: auto;
+    opacity: 1;
   }
 }
